@@ -1,0 +1,8 @@
+* Scope of the project
+This project is for me to get more acustomed with both building programs
+and getting a better idea of how game engines works. At the moment I am writting
+these lines the project is very barebones but the plan is to make this into a
+fully functionning game engine that will be able to display 2d graphics in the
+style of classic rpgs such as Rogue or Dwarf Fortress or as a more modern exemple Caves of Qud.
+More importantly, it will be able to handle and manage heavy computation in the background
+without having an impact on player experience.
