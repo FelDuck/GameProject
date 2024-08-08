@@ -19,3 +19,7 @@ obj_name = game
 
 all : $(OBJS)
 	$(CC) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(obj_name)
+speedtest : speedtest.c
+	$(CC) -r speedtest.c -o speedtest.o
+	$(CC) speedtest.o -o speedtest
+	rm -f speedtest.o
